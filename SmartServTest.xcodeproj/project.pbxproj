@@ -8,12 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		FFC5DB8D22CA51E700DD1506 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC5DB8C22CA51E700DD1506 /* AppDelegate.swift */; };
-		FFC5DB8F22CA51E700DD1506 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC5DB8E22CA51E700DD1506 /* ViewController.swift */; };
+		FFC5DB8F22CA51E700DD1506 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC5DB8E22CA51E700DD1506 /* ProductListViewController.swift */; };
 		FFC5DB9222CA51E700DD1506 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFC5DB9022CA51E700DD1506 /* Main.storyboard */; };
 		FFC5DB9422CA51E800DD1506 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFC5DB9322CA51E800DD1506 /* Assets.xcassets */; };
-		FFC5DB9722CA51E800DD1506 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFC5DB9522CA51E800DD1506 /* LaunchScreen.storyboard */; };
 		FFC5DBA222CA51E800DD1506 /* SmartServTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC5DBA122CA51E800DD1506 /* SmartServTestTests.swift */; };
 		FFC5DBAD22CA51E800DD1506 /* SmartServTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC5DBAC22CA51E800DD1506 /* SmartServTestUITests.swift */; };
+		FFC5DBBB22CA523C00DD1506 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFC5DBBA22CA523C00DD1506 /* LaunchScreen.storyboard */; };
+		FFC5DBBC22CA523C00DD1506 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFC5DBBA22CA523C00DD1506 /* LaunchScreen.storyboard */; };
+		FFC5DBBD22CA523C00DD1506 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFC5DBBA22CA523C00DD1506 /* LaunchScreen.storyboard */; };
+		FFC5DBC022CA57E900DD1506 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC5DBBF22CA57E900DD1506 /* Models.swift */; };
+		FFC5DBC122CA57E900DD1506 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC5DBBF22CA57E900DD1506 /* Models.swift */; };
+		FFC5DBC222CA57E900DD1506 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC5DBBF22CA57E900DD1506 /* Models.swift */; };
+		FFC5DBC622CA58BB00DD1506 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC5DBC522CA58BB00DD1506 /* ProductTableViewCell.swift */; };
+		FFC5DBC722CA58BB00DD1506 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC5DBC522CA58BB00DD1506 /* ProductTableViewCell.swift */; };
+		FFC5DBC822CA58BB00DD1506 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC5DBC522CA58BB00DD1506 /* ProductTableViewCell.swift */; };
+		FFC5DBCB22CA590500DD1506 /* APICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC5DBCA22CA590500DD1506 /* APICall.swift */; };
+		FFC5DBCC22CA590500DD1506 /* APICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC5DBCA22CA590500DD1506 /* APICall.swift */; };
+		FFC5DBCD22CA590500DD1506 /* APICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC5DBCA22CA590500DD1506 /* APICall.swift */; };
+		FFC5DBD022CA5AB400DD1506 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC5DBCF22CA5AB400DD1506 /* Extensions.swift */; };
+		FFC5DBD122CA5AB400DD1506 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC5DBCF22CA5AB400DD1506 /* Extensions.swift */; };
+		FFC5DBD222CA5AB400DD1506 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC5DBCF22CA5AB400DD1506 /* Extensions.swift */; };
+		FFC5DBD422CA5AD400DD1506 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC5DBD322CA5AD400DD1506 /* Constants.swift */; };
+		FFC5DBD522CA5AD400DD1506 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC5DBD322CA5AD400DD1506 /* Constants.swift */; };
+		FFC5DBD622CA5AD400DD1506 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC5DBD322CA5AD400DD1506 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +53,9 @@
 /* Begin PBXFileReference section */
 		FFC5DB8922CA51E700DD1506 /* SmartServTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartServTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFC5DB8C22CA51E700DD1506 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FFC5DB8E22CA51E700DD1506 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFC5DB8E22CA51E700DD1506 /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
 		FFC5DB9122CA51E700DD1506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FFC5DB9322CA51E800DD1506 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FFC5DB9622CA51E800DD1506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFC5DB9822CA51E800DD1506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFC5DB9D22CA51E800DD1506 /* SmartServTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartServTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFC5DBA122CA51E800DD1506 /* SmartServTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartServTestTests.swift; sourceTree = "<group>"; };
@@ -47,6 +63,12 @@
 		FFC5DBA822CA51E800DD1506 /* SmartServTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartServTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFC5DBAC22CA51E800DD1506 /* SmartServTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartServTestUITests.swift; sourceTree = "<group>"; };
 		FFC5DBAE22CA51E800DD1506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFC5DBBA22CA523C00DD1506 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFC5DBBF22CA57E900DD1506 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		FFC5DBC522CA58BB00DD1506 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		FFC5DBCA22CA590500DD1506 /* APICall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICall.swift; sourceTree = "<group>"; };
+		FFC5DBCF22CA5AB400DD1506 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FFC5DBD322CA5AD400DD1506 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +120,15 @@
 			isa = PBXGroup;
 			children = (
 				FFC5DB8C22CA51E700DD1506 /* AppDelegate.swift */,
-				FFC5DB8E22CA51E700DD1506 /* ViewController.swift */,
+				FFC5DBBE22CA57D500DD1506 /* Models */,
+				FFC5DBC422CA586A00DD1506 /* View */,
+				FFC5DBC322CA584D00DD1506 /* Controllers */,
+				FFC5DBC922CA58F800DD1506 /* APICall */,
+				FFC5DBCE22CA5A7500DD1506 /* AppUtility */,
 				FFC5DB9022CA51E700DD1506 /* Main.storyboard */,
 				FFC5DB9322CA51E800DD1506 /* Assets.xcassets */,
-				FFC5DB9522CA51E800DD1506 /* LaunchScreen.storyboard */,
 				FFC5DB9822CA51E800DD1506 /* Info.plist */,
+				FFC5DBBA22CA523C00DD1506 /* LaunchScreen.storyboard */,
 			);
 			path = SmartServTest;
 			sourceTree = "<group>";
@@ -123,6 +149,47 @@
 				FFC5DBAE22CA51E800DD1506 /* Info.plist */,
 			);
 			path = SmartServTestUITests;
+			sourceTree = "<group>";
+		};
+		FFC5DBBE22CA57D500DD1506 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FFC5DBBF22CA57E900DD1506 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FFC5DBC322CA584D00DD1506 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FFC5DB8E22CA51E700DD1506 /* ProductListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FFC5DBC422CA586A00DD1506 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FFC5DBC522CA58BB00DD1506 /* ProductTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FFC5DBC922CA58F800DD1506 /* APICall */ = {
+			isa = PBXGroup;
+			children = (
+				FFC5DBCA22CA590500DD1506 /* APICall.swift */,
+			);
+			path = APICall;
+			sourceTree = "<group>";
+		};
+		FFC5DBCE22CA5A7500DD1506 /* AppUtility */ = {
+			isa = PBXGroup;
+			children = (
+				FFC5DBCF22CA5AB400DD1506 /* Extensions.swift */,
+				FFC5DBD322CA5AD400DD1506 /* Constants.swift */,
+			);
+			path = AppUtility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +296,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFC5DB9722CA51E800DD1506 /* LaunchScreen.storyboard in Resources */,
+				FFC5DBBB22CA523C00DD1506 /* LaunchScreen.storyboard in Resources */,
 				FFC5DB9422CA51E800DD1506 /* Assets.xcassets in Resources */,
 				FFC5DB9222CA51E700DD1506 /* Main.storyboard in Resources */,
 			);
@@ -239,6 +306,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFC5DBBC22CA523C00DD1506 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +314,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFC5DBBD22CA523C00DD1506 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +325,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFC5DB8F22CA51E700DD1506 /* ViewController.swift in Sources */,
+				FFC5DBC022CA57E900DD1506 /* Models.swift in Sources */,
+				FFC5DBD022CA5AB400DD1506 /* Extensions.swift in Sources */,
+				FFC5DBC622CA58BB00DD1506 /* ProductTableViewCell.swift in Sources */,
+				FFC5DBCB22CA590500DD1506 /* APICall.swift in Sources */,
+				FFC5DBD422CA5AD400DD1506 /* Constants.swift in Sources */,
+				FFC5DB8F22CA51E700DD1506 /* ProductListViewController.swift in Sources */,
 				FFC5DB8D22CA51E700DD1506 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,7 +339,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFC5DBD122CA5AB400DD1506 /* Extensions.swift in Sources */,
 				FFC5DBA222CA51E800DD1506 /* SmartServTestTests.swift in Sources */,
+				FFC5DBC122CA57E900DD1506 /* Models.swift in Sources */,
+				FFC5DBCC22CA590500DD1506 /* APICall.swift in Sources */,
+				FFC5DBC722CA58BB00DD1506 /* ProductTableViewCell.swift in Sources */,
+				FFC5DBD522CA5AD400DD1506 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +352,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFC5DBD222CA5AB400DD1506 /* Extensions.swift in Sources */,
 				FFC5DBAD22CA51E800DD1506 /* SmartServTestUITests.swift in Sources */,
+				FFC5DBC222CA57E900DD1506 /* Models.swift in Sources */,
+				FFC5DBCD22CA590500DD1506 /* APICall.swift in Sources */,
+				FFC5DBC822CA58BB00DD1506 /* ProductTableViewCell.swift in Sources */,
+				FFC5DBD622CA5AD400DD1506 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +383,6 @@
 				FFC5DB9122CA51E700DD1506 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FFC5DB9522CA51E800DD1506 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FFC5DB9622CA51E800DD1506 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
